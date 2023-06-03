@@ -27,6 +27,47 @@ p{
     color: black;
 }
 
+.menuH{
+    overflow: hidden;
+    border: 5px double;
+}
+
 body{
     background-color: lightgray;
+}
+
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+  
+}
+
+.menuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+}
+
+.link a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    padding: 20px;
+}
+
+.link a:hover{
+    background-color: white;
+    color: black;
 }
